@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+
+<html lang="pt-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="CSS/style.css">
+        <title>Document</title>
+    </head>
+
+    <body>
+        <header class="header">
+            <img class="brand_img" src="Images/Brand.webp" alt="Brand">
+            <h1 class="title">Usinas Fotovoltaicas</h1>
+
+            <div class="section_button">Section 1</div>
+            <div class="section_button">Section 2</div>
+            <div class="section_button">Section 3</div>
+        </header>
+
+        <!-- Replaced Carrosel Section -->
+        <div class="carousel">
+            <div class="carousel-container">
+                <div class="slide">
+                    <img src="Images/Image1.jpg" alt="Slide 1">
+                </div>
+                <div class="slide">
+                    <img src="Images/Image2.jpg" alt="Slide 2">
+                </div>
+                <div class="slide">
+                    <img src="Images/Image3.jpg" alt="Slide 3">
+                </div>
+            </div>
+
+            <!-- Navigation buttons -->
+            <button class="prev" onclick="moveSlide(-1)">&#10094;</button>
+            <button class="next" onclick="moveSlide(1)">&#10095;</button>
+        </div>
+
+        <section id="section0">
+            <img alt="Usina Fotovoltaica 1" src="Images/Image1.jpg" id="imgtop0">
+            <img alt="Usina Fotovoltaica 1" src="Images/Image2.jpg" id="imgtop1">
+            <img alt="Usina Fotovoltaica 1" src="Images/Image3.jpg" id="imgtop2">
+            
+
+            <img alt="" src="Images/Image6.jpg" id="imgbig">
+
+            <div id="d0_small">
+                <img alt="" src="Images/Image5.jfif" class="img_small">
+                <p><b>Tecnologia Avançada em Usinas Fotovoltaicas</b></p>
+            </div>
+            
+            <div id="d1_small">
+                <img alt="" src="Images/Image5.jfif" class="img_small">
+                <p><b>Inovação na Geração de Energia Sustentável</b></p>
+            </div>
+            
+            <div id="d2_small">
+                <img alt="" src="Images/Image5.jfif" class="img_small">
+                <p><b>Automação e Monitoramento Inteligente</b></p>
+            </div>
+            
+            <div id="d3_small">
+                <img alt="" src="Images/Image5.jfif" class="img_small">
+                <p><b>Eficiência Energética e Sustentabilidade</b></p>
+            </div>
+            
+            <div id="d4_small">
+                <img alt="" src="Images/Image5.jfif" class="img_small">
+                <p><b>Armazenamento de Energia Solar</b></p>
+            </div>
+            
+            <div id="d5_small">
+                <img alt="" src="Images/Image5.jfif" class="img_small">
+                <p><b>Integração com Redes Inteligentes</b></p>
+            </div>
+        </section>
+
+        <br><br><br><br><br><br>
+
+        <h1 id="title_benefits">Quais são os <span id="benefits">benefícios</span> das <span id="Usinas">Usinas Fotovoltaicas</span>?</h1>
+        <section id="section1">
+            <div class="div_benefits" id="db0">
+                <h3>Energia Limpa e Renovável</h3>
+                <img src="Images/benefitsicon0.webp" alt="Energia Limpa e Renovável" id="img_benefitsicon0">
+                <h4>As usinas fotovoltaicas geram energia a partir da luz solar, uma fonte inesgotável e limpa, contribuindo para a redução das emissões de gases de efeito estufa.</h4>
+            </div>
+        
+            <div class="div_benefits" id="db1">
+                <h3>Redução de Custos a Longo Prazo</h3>
+                <img src="Images/benefitsicon1.webp" alt="Redução de Custos a Longo Prazo" id="img_benefitsicon1">
+                <h4>Embora o investimento inicial seja elevado, os custos de operação e manutenção são baixos, resultando em economia significativa nas contas de energia elétrica ao longo do tempo.</h4>
+            </div>
+        
+            <div class="div_benefits" id="db2">
+                <h3>Baixo Impacto Ambiental</h3>
+                <img src="Images/benefitsicon2.webp" alt="Baixo Impacto Ambiental" id="img_benefitsicon2">
+                <h4>Diferente de outras fontes de energia, as usinas fotovoltaicas não poluem e têm um impacto mínimo sobre o meio ambiente durante sua operação.</h4>
+            </div>
+        
+            <div class="div_benefits" id="db3">
+                <h3>Contribuição para o Desenvolvimento Sustentável</h3>
+                <img src="" alt="Desenvolvimento Sustentável">
+                <h4>A utilização de energia solar fomenta o desenvolvimento sustentável, promovendo o uso de recursos naturais de forma consciente e responsável.</h4>
+            </div>
+        
+            <div class="div_benefits" id="db4">
+                <h3>Geração de Empregos</h3>
+                <img src="" alt="Geração de Empregos">
+                <h4>A implementação de usinas fotovoltaicas cria oportunidades de emprego nas áreas de instalação, operação e manutenção dos sistemas.</h4>
+            </div>
+        
+            <div class="div_benefits" id="db5">
+                <h3>Independência Energética</h3>
+                <img src="" alt="Independência Energética">
+                <h4>Ao produzir sua própria energia, empresas e consumidores reduzem a dependência das concessionárias e protegem-se de possíveis aumentos nas tarifas de energia.</h4>
+            </div>
+        </section>
+
+        <section id="section2">
+            
+        </section>
+
+
+        <br><br><br><br>
+
+
+        <footer>
+            <h1 class="dev_sign">Desenvolvido por: <span class="name">Pedro Augusto</span></h1>
+        </footer>
+
+        <script src="Scripts/script.js"></script>
+    </body>
+</html>
