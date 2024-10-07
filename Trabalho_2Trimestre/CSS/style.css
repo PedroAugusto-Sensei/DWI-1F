@@ -1,6 +1,11 @@
+html{
+    scroll-behavior: smooth;
+    background-color: #ffffe0;
+}
+
 body {
     margin: 0%;
-    background-color: #ffffd8;
+    background-color: #ffffe0;
 }
 
 .carousel {
@@ -88,6 +93,10 @@ body {
     font-family: cursive; 
     font-size: 20px;
     margin-right: 58px;
+}
+
+.a_style {
+    text-decoration: none;
 }
 
 .carrosel {
@@ -312,6 +321,33 @@ body {
     width: 100px;
     border-radius: 10px;
     margin-left: 50px;
+}
+
+#section2 {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+}
+
+#divs1_sec2 {
+    background-color: #E6AF55;
+    height: 200px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+#divs2_sec2 {
+    background-color: #E6AF55;
+    height: 200px;
+    width: 100px;
+    margin-left: 40px;
+}
+
+#divs3_sec2 {
+    background-color: #E6AF55;
+    height: 200px;
+    width: 100px;
+    margin-left: 40px;
 }
 
 footer {
