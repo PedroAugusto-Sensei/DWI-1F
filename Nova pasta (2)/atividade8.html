@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            let peso = Number(prompt('Informe seu peso: '));
+            let alt = Number(prompt('Informe sua altura em Cm: '));
+            let alt_met = alt / 100;
+            let imc = peso / (alt ** 2);
+            if (imc < 16) {
+                alert('Baixo peso (grau 1)');
+            }
+
+            else if (imc >= 16 && imc <= 16.99) {
+                alert('Baixo peso (grau 2)');
+            }
+
+            else if (imc >= 17 && imc <= 18.49) {
+                alert('Baixo peso (grau 3)');
+            }
+
+            else if (imc >= 18.50 && imc <= 24.99) {
+                alert('Peso Ideal!');
+            }
+
+            else if (imc >= 25 && imc <= 29.99) {
+                alert('Sobrepeso');
+            }
+
+            else if (imc >= 30 && imc <= 34.99) {
+                alert('Obesidade (grau 1)');
+            }
+
+            else if (imc >= 35 && imc <= 39.99) {
+                alert('Obesidade (grau 2)');
+            }
+
+            else if (imc >= 40) {
+                alert('Obesidade (grau 3)');
+            }
+        </script>
+    </head>
+
+    <body>
+        
+    </body>
+</html>

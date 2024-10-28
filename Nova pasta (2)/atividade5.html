@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script>
+            let produto = Number(prompt('Valor produto: R$'));
+            let unidades = Number(prompt('Quantidade total de produtos: '));
+            let tot_nodesc = produto * unidades;
+
+            if (unidades > 10) {
+                let tot_desc = tot_nodesc - (tot_nodesc * 0.05)
+                alert('O total a pagar será: R$' + tot_desc.toFixed(2));
+            }
+
+            else {
+               alert('O total a pagar será: R$' + tot_nodesc.toFixed(2));
+            }
+
+        </script>
+    </head>
+
+    <body>
+        
+    </body>
+</html>
