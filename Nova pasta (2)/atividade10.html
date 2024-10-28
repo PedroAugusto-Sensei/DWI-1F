@@ -6,19 +6,21 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <title>Document</title>
         <script>
-            let horas = Number(prompt('Informe quantidade de horas trabalhadas: '));
-            let valor_hora = Number(prompt('Informe o preço por horas tarabalhadas: R$'));
-            if (horas > 40) {
-                valor_hora_atual = horas - 40 (valor_hora + (valor_hora * 0.5));
-            }
-
+            let horas = Number(prompt("Qual é o número de horas trabalhadas"));
+            let valorHoras = Number(prompt("Qual é o valor pago por hora trabalhada"));
+            let total = horas * valorHoras;
+            if (horas >= 40) {
+                let valorExtra = valorHoras + (valorHoras * 50 / 100);
+                let restoHoras = horas - 40;
+                let horasCheias = 40 * valorHoras;
+                let totalExtra = restoHoras * valorExtra + horasCheias;
+        
+                alert("Horas trabalhadas: " + horas + "\nValor por hora R$: " + valorHoras.toFixed(2) + "\nSalário total R$: " + totalExtra.toFixed(2));
+            } 
+            
             else {
-                valor_hora_atual = valor_hora;
+                alert("Horas trabalhadas: " + horas + "\nValor por hora R$: " + valorHoras.toFixed(2) + "\nSalário total R$: " + total.toFixed(2));
             }
-
-            let salario = horas * valor_hora_atual;
-
-            alert('Horas trabalhadas: ' + hora + '\nPreço por hora: R$' + valor_hora_atual + '\nSalário: R$' + salario);
         </script>
     </head>
 
